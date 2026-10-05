@@ -1,0 +1,19 @@
+# Archivos de configuración con contraseñas o API Keys
+.env
+
+# Esto es un comentario: Ignorar entorno virtual
+venv/
+.venv/
+
+# Ignorar carpetas completas de datos pesados
+data/
+
+# Ignorar todos los archivos que terminen en cierto tipo de extensión
+*.csv
+*.xlsx
+*.parquet
+
+# Ignorar archivos temporales del sistema o de Jupyter
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
